@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>816</width>
-    <height>913</height>
+    <width>1920</width>
+    <height>984</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -339,20 +339,6 @@
           </property>
          </spacer>
         </item>
-        <item>
-         <widget class="QLabel" name="label_11">
-          <property name="text">
-           <string>Output File Name</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="lineEdit_9">
-          <property name="text">
-           <string>output.fastq</string>
-          </property>
-         </widget>
-        </item>
        </layout>
       </item>
       <item>
@@ -395,9 +381,6 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_11"/>
-        </item>
-        <item>
          <widget class="QLabel" name="label_29">
           <property name="text">
            <string/>
@@ -436,9 +419,6 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_13"/>
-        </item>
-        <item>
          <widget class="QLabel" name="label_30">
           <property name="text">
            <string/>
@@ -448,39 +428,50 @@
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_20">
-        <item>
-         <widget class="QCheckBox" name="checkBox_9">
-          <property name="text">
-           <string>Untrimmed Output(File Name)</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="lineEdit_14"/>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="checkBox_11">
-          <property name="text">
-           <string>Discard Trimmed</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="checkBox_12">
-          <property name="text">
-           <string>Discard Untrimmed</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_31">
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-       </layout>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QRadioButton" name="radioButton_4">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>10</y>
+           <width>201</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Untrimmed Output(File Name)</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_7">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>10</y>
+           <width>131</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Discard Trimmed</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_8">
+         <property name="geometry">
+          <rect>
+           <x>440</x>
+           <y>10</y>
+           <width>141</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Discard Untrimmed</string>
+         </property>
+        </widget>
+       </widget>
       </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_21">
@@ -537,6 +528,9 @@
             <width>50</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="text">
+           <string>0</string>
           </property>
          </widget>
         </item>
